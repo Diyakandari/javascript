@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="cs.css"/>
+<body>
+   <main class="container">
+    <header class="main-header">
+        <h1 class="h1">JAVASCRIPT</h1></header>
+        <h1 class="h2">An Introduction to JavaScript</h1>
+            <p class="h3">==> Let’s see what’s so special about JavaScript, what we can achieve with it, and what other technologies play well with it.</p>
+           <img class="image1" src="sp.jfif"/>
+            <h1 class="h9">What is JavaScript? <br/></h1>
+                <p class="js">JavaScript was initially created to “make web pages alive”.
+                
+                The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+                
+                Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+                
+                In this aspect, JavaScript is very different from another language called Java.</p>
+                <h1 class="mm">Why is it called JavaScript?</h1>
+                  <p class="why">  When JavaScript was created, it initially had another name: “LiveScript”. But Java was very popular at that time, so it was decided that positioning a new language as a “younger brother” of Java would help.
+                    But as it evolved, JavaScript became a fully independent language with its own specification called ECMAScript, and now it has no relation to Java at all.</p>
+                <h1>JavaScript Fundamental</h1> 
+                <p class="fm">This part of the tutorial is about core JavaScript, the language itself.
+                    But we need a working environment to run our scripts and, since this book is online, the browser is a good choice. 
+                    We’ll keep the amount of browser-specific commands (like alert) to a minimum so that you don’t spend time on
+                     them if you plan to concentrate on another environment (like Node.js). We’ll focus on JavaScript in the browser in the 
+                     next part of the tutorial.
+                    So first, let’s see how we attach a script to a webpage. For server-side environments (like Node.js), you can execute the script with a 
+                    command like "node my.js"</p>  
+                    <h1>The “script” tag</h1>
+                        <p class="sp">JavaScript programs can be inserted almost anywhere into an HTML document using the script tag.
+                        For instance:</p>
+                        <img class="image2" src="script22.jpg"/>
+                        <h1>Variables</h1>
+                        <p class="vb">
+                            variables to store data by using the var, let, or const keywords.<br></p>
+                        .<h3>Let</h3> <p class="a"> – is a modern variable declaration.</p><br>
+                        <h3>Var</h3> <p class="b">– is an old-school variable declaration. Normally we don’t use it at all, but we’ll cover subtle differences <br>
+                        from let in the chapter The old "var", just in case you need them.</p><br>
+                        <h3 >const</h3><p class="c">– is like let, but the value of the variable can’t be changed<br>
+                        Variables should be named in a way that allows us to easily understand what’s inside them.
+                        </p>
+                        <h1>Data Type</h1>
+                        <div class="dt"><p>There are 8 basic data types in JavaScript.</p><br>
+                           <p>. Seven primitive data types:</p></br>
+                            .number for numbers of any kind: integer or floating-point, integers are limited by ±(253-1).</br>
+                            .bigint for integer numbers of arbitrary length.</br>
+                            .string for strings. A string may have zero or more characters, there’s no separate single-character type.</br>
+                            .boolean for true/false.</br>
+                            .null for unknown values – a standalone type that has a single value null.</br>
+                            .undefined for unassigned values – a standalone type that has a single value undefined.</br>
+                            .symbol for unique identifiers.</br></br>
+                           :- And one non-primitive data type:</br></br>
+                             .object for more complex data structures.</br></br>
+                            :-The typeof operator allows us to see which type is stored in a variable.</br>
+                            .Usually used as typeof x, but typeof(x) is also possible.</br>
+                            .Returns a string with the name of the type, like "string".</br>
+                            .For null returns "object" – this is an error in the language, it’s not actually an object</p></div><br><br>
+<h1>Interaction: alert, prompt, confirm</h1><br><br>
+<h2>alert</h2>
+<div class="ic">
+<p> This one we’ve seen already. It shows a message and waits for the user to press “OK”.(shows a message)</p>
+    <h3>For example:</h3>
+    alert("Hello");</p></div>
+    <h2>Prompt</h2>
+    <div class="pp"><p>shows a message asking the user to input text. It returns the text or, if Cancel button or Esc is clicked, null<br>
+        result = prossmpt(title, [default]);</p>
+    </div>
+    <h2>confirm</h2>
+       <p class="cf"> shows a message and waits for the user to press “OK” or “Cancel”. 
+        It returns true for OK and false for Cancel/Esc.</p>
+        <h1>Basic operators, maths</h1>
+<p class="d">We know many operators from school. They are things like addition +, multiplication *, subtraction -, and <br>so on.</p>
+<h2>Terms: “unary”, “binary”, “operand”</h2>
+<p class="e">Before we move on, let’s grasp some common terminology.</p>
+
+<li class="f">An operand – is what operators are applied to. For instance, in the multiplication of 5 * 2 there are two <br>
+operands: the left operand is 5 and the right operand is 2. Sometimes, people call these “arguments” <br>
+instead of “operands”.<li class="f">
+An operator is unary if it has a single operand. For example, the unary negation - reverses the sign of a number:</li>
+
+<h1>Maths</h1>
+<p  class="f">The following math operations are supported:</p>
+<li class="f">
+Addition +,<li  class="f">
+Subtraction -,<li class="f">
+Multiplication *,<li class="f">
+Division /,<li class="f">
+Remainder %,<li class="f">
+Exponentiation **.  <li>
+<img class="image3" src="download.png"/> 
+<h1>conditional branching: if, '?'</h1>
+<p class="f">Sometimes, we need to perform different actions based on different condition</p>
+<p class="f">
+    The if(...) statement evaluates a condition in parentheses and, if the result is true, executes a block of code.</p>
+
+<h3>For example:</h3>
+
+<p class="f"> 1 let year = prompt('In which year was ECMAScript-2015 specification published?', '');<br>
+2<br>
+3 if (year == 2015) alert( 'You are right!' );<br><br>
+In the example above, the condition is a simple equality check (year == 2015), but it can be much more complex.<br>
+<h2> conditions: “else if”</h2>
+<p class="f">Sometimes, we’d like to test several variants of a condition. The else if clause lets us do that.<br></p>
+
+<h3>For example:</h3>
+
+<p class="f">let year = prompt('In which year was the ECMAScript-2015 specification published?', '');<br>
+
+if (year < 2015) {<br>
+  alert( 'Too early...' );<br>
+} else if (year > 2015) {<br>
+  alert( 'Too late' );<br>
+} else {<br>
+  alert( 'Exactly!' );<br>
+}<br>
+In the code above, JavaScript first checks year < 2015. If that is falsy, it goes to the next condition year ><br>
+ 2015. If that is also falsy, it shows the last alert.<br>
+There can be more else if blocks. The final else is optional.
+<h1>Logical operators</h1></p>
+    <p class="f">There are four logical operators in JavaScript: || (OR), && (AND), ! (NOT), ?? (Nullish Coalescing). Here we cover the first three, the ?? operator is in the next article.<br>
+    
+    Although they are called “logical”, they can be applied to values of any type, not only boolean. Their result can also be of any type.<br>
+    
+    Let’s see the details.<br></p>
+    
+    <h3>|| (OR)</h3>
+    <p  class="f">The “OR” operator is represented with two vertical line symbols:<br>
+    
+   <h3> result = a || b;</h3>
+   <p class="f"> In classical programming, the logical OR is meant to manipulate boolean values only. If any of its arguments are true,<br>
+     it returns true, otherwise it returns false.<br>
+    
+    In JavaScript, the operator is a little bit trickier and more powerful. But first, let’s see what happens with boolean values.</h1>
+</p>
+<h1>&& (AND)</h1>
+    <p class="f">The AND operator is represented with two ampersands &&:
+    
+   <h3> result = a && b;</h3>
+   <p class="f"> In classical programming, AND returns true if both operands are truthy and false otherwise:</p>
+    <h1>Loops: while and for</h1>
+    <p class="f">We covered 3 types of loops:<br><li class="f">
+
+        while – The condition is checked before each iteration.<li class="f">
+        do..while – The condition is checked after each iteration.<li  class="f">
+        for (;;) – The condition is checked before each iteration, additional settings available.<br><br>
+        To make an “infinite” loop, usually the while(true) construct is used. Such a loop, just like any other, can be 
+        stopped with the break directive.<br><br>
+        
+        If we don’t want to do anything in the current iteration and would like to forward to the next one, we can use the
+         continue directive.<br><br>
+        
+        break/continue support labels before the loop. A label is the only way for break/continue to escape a nested loop 
+        to go to an outer one
+        while(…) {…}.</li></p>
+
+        <h2>The “for” loop</h2>
+        <p class="f">The for loop is more complex, but it’s also the most commonly used loop.
+        <br>
+        It looks like this:-</p>
+        <br>
+        <h4>for (begin; condition; step) {<br>
+          // ... loop body ...<br>
+        }</h4>
+        <h1>The "switch" statement</h1>
+         <p class="f"> A switch statement can replace multiple if checks.<br><br>
+          
+          It gives a more descriptive way to compare a value with multiple variants.<br><br></p>
+          
+          <h4>The syntax</h4><br>
+          <p class="f">The switch has one or more case blocks and an optional default.<br><br>
+          
+          It looks like this:<br> <br></p>
+          
+        <h3>1. switch(x) {<br>
+            2. case 'value1':  // if (x === 'value1')<Br>
+            3.  ...<br>
+            4. [break]<br>
+            5.case 'value2':  // if (x === 'value2')<br>
+            6.  ...<br>
+            7.  [break]<br>
+            8.  default:<br>
+            9.  ...<br>
+            10. [break]<br></h3>
+        }<br> <br>
+         <li class="f">The value of x is checked for a strict equality to the value from the first case (that is, value1) then to the<br>
+           second (value2) and so on.<li class="f">
+          If the equality is found, switch starts to execute the code starting from the corresponding case, until the<br>
+           nearest break (or until the end of switch).<br><li class="f">
+          If no case is matched then the default code is executed (if it exists).
+        </h4></li>
+        <h1>Functions</h1>
+        <p class="f">A function declaration looks like this:<br><br></p>
+
+          <h4>1.  function name(parameters, delimited, by, comma) {<br>
+              2.  /* code */ <br>
+              3.  }</p></h4><br>
+        <p class="f"><li class="f">Values passed to a function as parameters are copied to its local variables.<br>
+          <li class="f">A function may access outer variables. But it works only from inside out. The code outside of the function<br>
+             doesn’t see its local variables.<br><li class="f">
+          A function can return a value. If it doesn’t, then its result is undefined.<br><br>
+          To make the code clean and easy to understand, it’s recommended to use mainly local variables and parameters <br>
+          in the function, not outer variables.<br><br>
+          
+          It is always easier to understand a function which gets parameters, works with them and returns a result than a <br>
+          function which gets no parameters, but modifies outer variables as a side effect.<br><br>
+             </p></li>
+          <h3>Function naming:</h3>
+          
+         <li class="f">A name should clearly describe what the function does. When we see a function call in the code, a
+           good name<br>
+           instantly gives us an understanding what it does and returns.<br>
+          <li class="f">A function is an action, so function names are usually verbal.<li class="f">
+          There exist many well-known function prefixes like create…, show…, get…, check… and so on. Use them<br>
+           to hint what a function does.<br><br>
+          Functions are the main building blocks of scripts. Now we’ve covered the basics, so we actually can start
+           creating <br>
+          and using them. But that’s only the beginning of the path. We are going to return to them many times, going<br>
+           more deeply into their advanced features.</p>
+    <section class="first"></section>
+    
+   </main> 
+</body>
+</html>

@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.main-header{
+    background-color: aqua;
+    color: black;
+    
+}
+.h1{
+    background: linear-gradient(90deg,red,rgb(52,52,199));
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.h2{
+    color: rgb(34, 34, 36);
+    background-color: white;
+    margin-top:20px ;
+    margin-left: 50px;
+
+}
+.h3{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+      font-size: 20px;
+
+
+}
+.image1{
+    float: right;
+    width: 40%;
+}
+.js{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px;
+}
+.why{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+}
+.fm{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+
+}
+.sp{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+
+}
+.image1{
+    margin-left: 30px;
+   width: 400px;
+   height: 250px;
+}
+.image2{
+    margin-left: 35%;
+   width: 380px;
+   height: 250px;
+}
+.vb{
+    color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px
+} 
+    .dt{
+        color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+    }
+    .ic{
+        color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+    }
+    .pp{
+        color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+    }
+    .cf{
+        color: rgb(4, 37, 128);
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 20px 
+    }
+    
+    .image3{
+        margin-left:800;
+    }
+    .a{
+        color: rgb(4, 37, 128);
+        text-transform: capitalize;
+        margin-left: 20px;
+        margin-top: 10px;
+        position:relative;
+        font-size: 20px 
+        }   
+        .b{
+            color: rgb(4, 37, 128);
+            text-transform: capitalize;
+            margin-left: 20px;
+            margin-top: 10px;
+            position:relative;
+            font-size: 20px 
+            }
+            .c{
+                color: rgb(4, 37, 128);
+                text-transform: capitalize;
+                margin-left: 20px;
+                margin-top: 10px;
+                position:relative;
+                font-size: 20px 
+                } 
+                .d{
+                    color: rgb(4, 37, 128);
+                    text-transform: capitalize;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    position:relative;
+                    font-size: 20px 
+                    } 
+                    .e{
+                        color: rgb(4, 37, 128);
+                        text-transform: capitalize;
+                        margin-left: 20px;
+                        margin-top: 10px;
+                        position:relative;
+                        font-size: 20px 
+                        }
+                        .f{
+                            color: rgb(4, 37, 128);
+                            text-transform: capitalize;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            position:relative;
+                            font-size: 20px 
+                            }  
+
+    
